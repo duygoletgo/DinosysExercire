@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45ED3F261E043BB70003F435 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45ED3F251E043BB70003F435 /* AppDelegate.swift */; };
+		45ED3F281E043BB70003F435 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45ED3F271E043BB70003F435 /* ViewController.swift */; };
+		45ED3F2B1E043BB70003F435 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45ED3F291E043BB70003F435 /* Main.storyboard */; };
+		45ED3F2D1E043BB70003F435 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45ED3F2C1E043BB70003F435 /* Assets.xcassets */; };
+		45ED3F301E043BB70003F435 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45ED3F2E1E043BB70003F435 /* LaunchScreen.storyboard */; };
+		45FE66AF1E07850F00D69A55 /* AnimationAvartarInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FE66AE1E07850F00D69A55 /* AnimationAvartarInfo.swift */; };
+		45FE66B11E07868B00D69A55 /* AnimationAvartarConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FE66B01E07868B00D69A55 /* AnimationAvartarConfig.swift */; };
+		45FE66CA1E0A355D00D69A55 /* 01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45FE66C31E0A355D00D69A55 /* 01.jpg */; };
+		45FE66CB1E0A355D00D69A55 /* 02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45FE66C41E0A355D00D69A55 /* 02.jpg */; };
+		45FE66CC1E0A355D00D69A55 /* 03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45FE66C51E0A355D00D69A55 /* 03.jpg */; };
+		45FE66CD1E0A355D00D69A55 /* 04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45FE66C61E0A355D00D69A55 /* 04.jpg */; };
+		45FE66CE1E0A355D00D69A55 /* 05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45FE66C71E0A355D00D69A55 /* 05.jpg */; };
+		45FE66CF1E0A355D00D69A55 /* 06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45FE66C81E0A355D00D69A55 /* 06.jpg */; };
+		45FE66D01E0A355D00D69A55 /* 07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45FE66C91E0A355D00D69A55 /* 07.jpg */; };
+		45FE66D31E0A395400D69A55 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FE66D21E0A395400D69A55 /* UserTableViewCell.swift */; };
+		45FE66D51E0A3F6400D69A55 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FE66D41E0A3F6400D69A55 /* UserModel.swift */; };
+		45FE66D71E0A79EA00D69A55 /* UserDetaiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FE66D61E0A79EA00D69A55 /* UserDetaiViewController.swift */; };
+		45FE66D91E0AC5D200D69A55 /* UserDetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FE66D81E0AC5D200D69A55 /* UserDetailCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		45ED3F221E043BB70003F435 /* Dinosys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dinosys.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45ED3F251E043BB70003F435 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45ED3F271E043BB70003F435 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		45ED3F2A1E043BB70003F435 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45ED3F2C1E043BB70003F435 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45ED3F2F1E043BB70003F435 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45ED3F311E043BB70003F435 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45FE66AE1E07850F00D69A55 /* AnimationAvartarInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationAvartarInfo.swift; sourceTree = "<group>"; };
+		45FE66B01E07868B00D69A55 /* AnimationAvartarConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationAvartarConfig.swift; sourceTree = "<group>"; };
+		45FE66C31E0A355D00D69A55 /* 01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 01.jpg; sourceTree = "<group>"; };
+		45FE66C41E0A355D00D69A55 /* 02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 02.jpg; sourceTree = "<group>"; };
+		45FE66C51E0A355D00D69A55 /* 03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 03.jpg; sourceTree = "<group>"; };
+		45FE66C61E0A355D00D69A55 /* 04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 04.jpg; sourceTree = "<group>"; };
+		45FE66C71E0A355D00D69A55 /* 05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 05.jpg; sourceTree = "<group>"; };
+		45FE66C81E0A355D00D69A55 /* 06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 06.jpg; sourceTree = "<group>"; };
+		45FE66C91E0A355D00D69A55 /* 07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 07.jpg; sourceTree = "<group>"; };
+		45FE66D21E0A395400D69A55 /* UserTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		45FE66D41E0A3F6400D69A55 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserModel.swift; path = Dinosys/UserModel.swift; sourceTree = "<group>"; };
+		45FE66D61E0A79EA00D69A55 /* UserDetaiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetaiViewController.swift; sourceTree = "<group>"; };
+		45FE66D81E0AC5D200D69A55 /* UserDetailCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailCollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45ED3F1F1E043BB70003F435 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45ED3F191E043BB70003F435 = {
+			isa = PBXGroup;
+			children = (
+				45ED3F241E043BB70003F435 /* Dinosys */,
+				45ED3F231E043BB70003F435 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45ED3F231E043BB70003F435 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45ED3F221E043BB70003F435 /* Dinosys.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45ED3F241E043BB70003F435 /* Dinosys */ = {
+			isa = PBXGroup;
+			children = (
+				45FE66D11E0A393600D69A55 /* View */,
+				45FE66B21E07A2DF00D69A55 /* Data */,
+				45FE66AD1E0784C500D69A55 /* AnimationAvatar */,
+				45ED3F251E043BB70003F435 /* AppDelegate.swift */,
+				45ED3F271E043BB70003F435 /* ViewController.swift */,
+				45FE66D61E0A79EA00D69A55 /* UserDetaiViewController.swift */,
+				45ED3F291E043BB70003F435 /* Main.storyboard */,
+				45ED3F2C1E043BB70003F435 /* Assets.xcassets */,
+				45ED3F2E1E043BB70003F435 /* LaunchScreen.storyboard */,
+				45ED3F311E043BB70003F435 /* Info.plist */,
+				45FE66D81E0AC5D200D69A55 /* UserDetailCollectionViewCell.swift */,
+			);
+			path = Dinosys;
+			sourceTree = "<group>";
+		};
+		45FE66AD1E0784C500D69A55 /* AnimationAvatar */ = {
+			isa = PBXGroup;
+			children = (
+				45FE66D41E0A3F6400D69A55 /* UserModel.swift */,
+				45FE66AE1E07850F00D69A55 /* AnimationAvartarInfo.swift */,
+				45FE66B01E07868B00D69A55 /* AnimationAvartarConfig.swift */,
+			);
+			name = AnimationAvatar;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		45FE66B21E07A2DF00D69A55 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				45FE66C31E0A355D00D69A55 /* 01.jpg */,
+				45FE66C41E0A355D00D69A55 /* 02.jpg */,
+				45FE66C51E0A355D00D69A55 /* 03.jpg */,
+				45FE66C61E0A355D00D69A55 /* 04.jpg */,
+				45FE66C71E0A355D00D69A55 /* 05.jpg */,
+				45FE66C81E0A355D00D69A55 /* 06.jpg */,
+				45FE66C91E0A355D00D69A55 /* 07.jpg */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		45FE66D11E0A393600D69A55 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				45FE66D21E0A395400D69A55 /* UserTableViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45ED3F211E043BB70003F435 /* Dinosys */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45ED3F341E043BB70003F435 /* Build configuration list for PBXNativeTarget "Dinosys" */;
+			buildPhases = (
+				45ED3F1E1E043BB70003F435 /* Sources */,
+				45ED3F1F1E043BB70003F435 /* Frameworks */,
+				45ED3F201E043BB70003F435 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dinosys;
+			productName = Dinosys;
+			productReference = 45ED3F221E043BB70003F435 /* Dinosys.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45ED3F1A1E043BB70003F435 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = QuanChung;
+				TargetAttributes = {
+					45ED3F211E043BB70003F435 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 45ED3F1D1E043BB70003F435 /* Build configuration list for PBXProject "Dinosys" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45ED3F191E043BB70003F435;
+			productRefGroup = 45ED3F231E043BB70003F435 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45ED3F211E043BB70003F435 /* Dinosys */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45ED3F201E043BB70003F435 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45FE66CC1E0A355D00D69A55 /* 03.jpg in Resources */,
+				45FE66CD1E0A355D00D69A55 /* 04.jpg in Resources */,
+				45FE66CA1E0A355D00D69A55 /* 01.jpg in Resources */,
+				45FE66CB1E0A355D00D69A55 /* 02.jpg in Resources */,
+				45FE66CE1E0A355D00D69A55 /* 05.jpg in Resources */,
+				45FE66D01E0A355D00D69A55 /* 07.jpg in Resources */,
+				45FE66CF1E0A355D00D69A55 /* 06.jpg in Resources */,
+				45ED3F301E043BB70003F435 /* LaunchScreen.storyboard in Resources */,
+				45ED3F2D1E043BB70003F435 /* Assets.xcassets in Resources */,
+				45ED3F2B1E043BB70003F435 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45ED3F1E1E043BB70003F435 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45ED3F281E043BB70003F435 /* ViewController.swift in Sources */,
+				45FE66D51E0A3F6400D69A55 /* UserModel.swift in Sources */,
+				45FE66D91E0AC5D200D69A55 /* UserDetailCollectionViewCell.swift in Sources */,
+				45FE66AF1E07850F00D69A55 /* AnimationAvartarInfo.swift in Sources */,
+				45FE66B11E07868B00D69A55 /* AnimationAvartarConfig.swift in Sources */,
+				45ED3F261E043BB70003F435 /* AppDelegate.swift in Sources */,
+				45FE66D71E0A79EA00D69A55 /* UserDetaiViewController.swift in Sources */,
+				45FE66D31E0A395400D69A55 /* UserTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		45ED3F291E043BB70003F435 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45ED3F2A1E043BB70003F435 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45ED3F2E1E043BB70003F435 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45ED3F2F1E043BB70003F435 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45ED3F321E043BB70003F435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		45ED3F331E043BB70003F435 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45ED3F351E043BB70003F435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Dinosys/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QuanChung.Dinosys;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		45ED3F361E043BB70003F435 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Dinosys/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QuanChung.Dinosys;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45ED3F1D1E043BB70003F435 /* Build configuration list for PBXProject "Dinosys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45ED3F321E043BB70003F435 /* Debug */,
+				45ED3F331E043BB70003F435 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45ED3F341E043BB70003F435 /* Build configuration list for PBXNativeTarget "Dinosys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45ED3F351E043BB70003F435 /* Debug */,
+				45ED3F361E043BB70003F435 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45ED3F1A1E043BB70003F435 /* Project object */;
+}
